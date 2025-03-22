@@ -1,4 +1,4 @@
 <html>
-<script>alert(2)</script>
+<script>alert(233)</script>
 <img src=x onerror=alert(1)>
 </html>
