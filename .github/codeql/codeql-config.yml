@@ -1,0 +1,7 @@
+name: "CodeQL configuration"
+queries:
+  - uses: codeql/javascript-queries@latest
+  - uses: codeql/python-queries@latest
+  - uses: codeql/java-queries@latest
+  - uses: codeql/cpp-queries@latest
+  - uses: codeql/csharp-queries@latest
