@@ -16,4 +16,4 @@ results = cursor.fetchall()
 print(results)
 
 conn.close()
-2
+3
