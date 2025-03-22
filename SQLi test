@@ -1,0 +1,18 @@
+import sqlite3
+
+# Connect to the database
+conn = sqlite3.connect("example.db")
+cursor = conn.cursor()
+
+# User input (simulating form input)
+user_input = input("Enter your username: ")
+
+# Vulnerable SQL query (direct string concatenation)
+query = f"SELECT * FROM users WHERE username = '{user_input}'"
+cursor.execute(query)
+
+# Fetch results
+results = cursor.fetchall()
+print(results)
+
+conn.close()
