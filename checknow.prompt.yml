@@ -1,0 +1,6 @@
+messages:
+  - role: system
+    content: ''
+  - role: user
+    content: 'this is my variable{{var}}'
+model: microsoft/phi-3.5-mini-instruct
