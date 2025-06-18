@@ -1,6 +1,6 @@
 messages:
   - role: system
-    content: ''
+    content: check this out
   - role: user
     content: 'this is my variable{{var}}'
   - role: assistant
