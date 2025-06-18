@@ -1,0 +1,6 @@
+messages:
+  - role: system
+    content: cool
+  - role: user
+    content: 'hello {{va}}'
+model: microsoft/phi-3.5-mini-instruct
