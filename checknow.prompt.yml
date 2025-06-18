@@ -3,4 +3,8 @@ messages:
     content: ''
   - role: user
     content: 'this is my variable{{var}}'
+  - role: assistant
+    content: 'Coo stuff. '
+  - role: user
+    content: 'cool {{var}} '
 model: microsoft/phi-3.5-mini-instruct
