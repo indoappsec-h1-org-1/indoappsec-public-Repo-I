@@ -1,0 +1,6 @@
+messages:
+  - role: system
+    content: cool
+  - role: user
+    content: '{{test}}'
+model: ai21-labs/ai21-jamba-1.5-large
